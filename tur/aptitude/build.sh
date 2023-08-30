@@ -17,6 +17,7 @@ TERMUX_PKG_EXTRA_CONFIGURE_ARGS="
 --enable-nls
 nls_cv_use_gnu_gettext=yes
 "
+TERMUX_DEBUG_BUILD=true
 
 source $TERMUX_SCRIPTDIR/common-files/setup_toolchain_gcc.sh
 
